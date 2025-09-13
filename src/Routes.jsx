@@ -14,7 +14,7 @@ const Routes = () => {
       <ScrollToTop />
       <RouterRoutes>
         {/* Define your route here */}
-        <Route path="/" element={<BookingConfirmationSuccess />} />
+        <Route path="/" element={<HomepageServiceOverview />} />
         <Route path="/booking-form-appointment-scheduling" element={<BookingFormAppointmentScheduling />} />
         <Route path="/booking-confirmation-success" element={<BookingConfirmationSuccess />} />
         <Route path="/homepage-service-overview" element={<HomepageServiceOverview />} />
